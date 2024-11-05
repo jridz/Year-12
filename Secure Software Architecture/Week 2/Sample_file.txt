@@ -1,0 +1,2 @@
+Checksums are a fundamental tool for maintaining data integrity. They work by generating a unique, fixed-size string of characters (a checksum) from a block of data.
+They are a simple yet effective method to ensure data integrity. By verifying that the data has not changed between two points in time or across different locations, checksums help detect corruption, tampering, and accidental changes.
