@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous');
+
+body {
+    text-align: center;
+    font-size: 20px;
+    margin: 50px 0;
+    font-family: sans-serif;
+}
+
+div {
+    background: url('fish.jpg');
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+h1 {
+    color: white;
+    background: red;
+    font-size: 60px;
+    font-family: "Righteous";
+    padding: 30px 0 30px;
+}
+
+span {
+    font-size: 43px
+}
+
+p {
+    text-align: left;
+    width: 400px;
+    vertical-align: middle;
+    padding: 0 30px;
+    display: inline-block;
+}
+
+img {
+    width: 300px;
+    vertical-align: middle;
+    border-radius: 150px;
+    margin: 10px 0;
+}
