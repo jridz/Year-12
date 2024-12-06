@@ -1,0 +1,90 @@
+html {
+    background: black;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    color: white;
+    background: black;
+    padding: 0;
+}
+
+header {
+    margin: 5px;
+
+    h1 {
+        margin: 5px 0 5px 0;
+    }
+    nav {
+        width: fit-content;
+        border-radius: 5px;
+        border: 2px solid white;
+
+        ul {
+            margin: 5px;
+            padding: 0;
+
+            li {
+                display: inline;
+                padding: 0 5px 0 5px;
+                list-style-type: none;
+                border-right: 2px solid white;
+
+                a {
+                    color: white;
+                    text-decoration: none;
+
+                    &:hover {
+                        text-decoration: underline;
+                    }
+                }
+
+                &:last-child {
+                    border-right: none;
+                }
+            }
+        }
+    }
+
+    .corner-web {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 10em;
+        height: 10em;
+        pointer-events: none;
+    }
+}
+
+main {
+    margin: 5px;
+}
+
+.gallery {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    .gallery-item {
+        border: solid 2px white;
+        padding: 5px;
+        margin: 5px;
+        border-radius: 5px;
+
+        &:first-child {
+            margin-left: 0;
+        }
+
+        img {
+            width: auto;
+            max-height: 30vh;
+            border-radius: 5px;
+        }
+
+        p {
+            margin: 5px 0;
+            padding: 0;
+            text-align: center;
+        }
+    }
+}
