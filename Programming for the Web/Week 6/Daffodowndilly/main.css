@@ -1,0 +1,20 @@
+h1 {
+  background-color: darkgreen;
+  color: darkorange;
+  border-bottom: 2px solid darkorange;
+  text-align: center;
+  font-size: 71px;
+}
+h3 {
+  text-align: center;
+}
+p {
+  text-align: center;
+  line-height: 2;
+}
+a {
+  color: darkgreen;
+}
+img {
+  width: 100%;
+}
