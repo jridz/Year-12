@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@300..900&display=swap');
+
+.logo:first-child {
+    font-family: "Frank Ruhl Libre";
+    font-size: 70px;
+    display: block;
+    width: 100%;
+    text-decoration: none;
+    color: white;
+    width: 100%;
+    padding: 50px 0 50px 0;
+    text-align: center;
+}
+
+.logo, .slogan {
+    display: none;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    background-image: url(https://images.unsplash.com/photo-1518531933037-91b2f5f229cc?q=80&w=2127&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    width: 100%;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: #6a7e5b;
+}
+
+nav a {
+    margin: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+nav a span {
+    margin-right: 5px;
+}
+
+.content {
+    padding: 10px;
+}
+
+.content a {
+    color: #598470;
+    text-decoration: underline;
+}
+
+.content p {
+    margin: 10px auto;
+}
+
+.about {
+    flex: 1;
+}
+
+.about h2 {
+    margin: 0 auto 0 auto;
+    display: inline-block;
+    font-family: "Frank Ruhl Libre";
+    border-bottom: 2px solid #6a7e5b;
+}
+
+.locations {
+    border: 2px dashed #6a7e5b;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /*flex: min-content;*/
+}
+
+.locations h3 {
+    font-family: "Frank Ruhl Libre";
+    border-bottom: 2px solid #6a7e5b;
+    margin: 10px auto 0 auto;
+    font-size: 24px;
+}
+.locations p {
+    margin: 10px;
+}
+.locations p span {
+    font-size: 16px;
+}
+.locations p span.date {
+    font-weight: bold;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px; /* Adjust the gap as needed */
+}
+
+.blog-posts {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 10px;
+    width: 100%;
+    border-bottom: 2px solid #6a7e5b;
+    text-align: center;
+    margin: 0;
+    border-top: 2px solid #6a7e5b;
+    padding: 10px 0 10px 0;
+}
+
+.blog-posts h2 {
+    font-family: "Frank Ruhl Libre";
+    margin: 0;
+    background-color: #598470;
+    border: 2px solid #6a7e5b;
+    color: white;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    flex-direction: column;
+    font-size: 30px;
+    font-weight: normal;
+}
+
+.blog-posts > p {
+    margin: 0;
+    display: block;
+    background-color: #598470;
+    border: 2px solid #6a7e5b;
+}
+
+.blog-posts p a {
+    color: white;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    flex-direction: column;
+}
+.blog-posts p a:not(span) {
+    font-family: "Frank Ruhl Libre";
+    font-size: 30px;
+}
+.blog-posts p a span {
+    margin-top: 10px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid white;
+    border-radius: 100%;
+    font-style: normal;
+}
+
+.blog-post {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #6a7e5b;
+    padding: 10px;
+}
+
+.blog-post img {
+    width: 100%;
+    height: auto;
+}
+
+.instagram-feed {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.instagram-feed h3 {
+    display: inline;
+    font-family: "Frank Ruhl Libre";
+    border-bottom: 2px solid #6a7e5b;
+    font-size: 24px;
+    margin: 0;
+}
+
+.instagram-feed .instagram-post {
+    border: 2px solid #6a7e5b;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    background-color: #598470;
+}
+
+.instagram-feed .instagram-post p {
+    border: 2px solid white;
+    margin: 0 0 0 10px;
+    color: white;
+    padding: 10px;
+}
+
+.instagram-feed .instagram-post p .username {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.instagram-feed .instagram-post p .hashtags {
+    font-style: italic;
+    display: block;
+    margin-top: 10px;
+}
+
+.instagram-feed .instagram-post img {
+    margin: 0;
+    border: 2px solid white;
+}
+
+body {
+    width: 1024px;
+    margin: 0 auto;
+    background-color: white;
+
+}
+
+html {
+    background-color: #8b9f76;
+}
