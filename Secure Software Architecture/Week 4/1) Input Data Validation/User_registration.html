@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Registration</title>
+    <style>
+        .error { color: red; font-size: 0.9em; }
+    </style>
+</head>
+<body>
+    <h1>User Registration</h1>
+    <form id="registrationForm">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username">
+        <div id="usernameError" class="error"></div>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password">
+        <div id="passwordError" class="error"></div>
+
+        
+
+        <label for="phone">Phone Number:</label>
+        <input type="text" id="phone" name="phone">
+        <div id="phoneError" class="error"></div>
+
+        <button type="submit">Register</button>
+    </form>
+
+    <script src="../validation.js"></script>
+</body>
+</html>
+
+
